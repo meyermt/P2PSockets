@@ -1,7 +1,6 @@
 # MasterProcessSocket
 
-Master socket that serves one file to clients. The master will first serve the count of the client to the client, to be
-used in file naming, and then the contents of the specified file.
+Very basic (and manual) P2P network where messages are sent along a line of nodes.
 
 ## Running the Project
 
