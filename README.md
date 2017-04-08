@@ -1,4 +1,4 @@
-# MasterProcessSocket
+# P2PSockets
 
 Very basic (and manual) P2P network where messages are sent along a line of nodes. All processes/nodes run on the localhost IP `127.0.0.1`. This network uses the concept of ports ordered by port number. Therefore, when running a node, you must know the next lower port node that will be connected (this is the **leftPort**) and the next higher port that will be connected (this is the **rightPort**). If you add nodes to the network that fall in between, it will cause the network to not work as expected.
 
